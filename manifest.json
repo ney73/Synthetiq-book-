@@ -1,0 +1,39 @@
+{
+  "contractVersion": 1,
+  "id": "novelneko",
+  "familyID": "novelneko-v1",
+  "version": "0.1.0",
+  "name": "Novel Neko",
+  "description": "Source module for NovelNeko light novels and web novels.",
+  "language": "fr",
+  "contentType": "text",
+  "contentRating": "suggestive",
+  "releaseTrack": "stable",
+  "baseURL": "https://novelneko.fr/",
+  "universalLink": "https://novelneko.fr/",
+  "allowedHosts": [
+    "novelneko.fr"
+  ],
+  "capabilities": [
+    "discovery",
+    "search",
+    "details",
+    "chapters",
+    "text"
+  ],
+  "entry": "modules/novelneko/index.js",
+  "icon": "modules/novelneko/icon.png",
+  "attribution": {
+    "sourceName": "Novel Neko",
+    "sourceURL": "https://novelneko.fr/"
+  },
+  "limits": {
+    "maxResponseBytes": 5000000,
+    "maxResultsPerPage": 50,
+    "maxPage": 100
+  },
+  "hashes": {
+    "entry": "",
+    "icon": ""
+  }
+}
