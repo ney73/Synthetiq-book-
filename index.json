@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "name": "Mon Dépôt Synthetiq",
+  "repository": {
+    "name": "Synthetiq Book",
+    "owner": "ney73",
+    "url": "https://github.com/ney73/Synthetiq-book-"
+  },
+  "generatedAt": "2026-09-02T21:40:00Z",
+  "modules": [
+    {
+      "id": "novelneko",
+      "familyID": "novelneko-v1",
+      "name": "Novel Neko",
+      "version": "0.1.0",
+      "manifest": "modules/novelneko/manifest.json",
+      "entry": "modules/novelneko/index.js",
+      "icon": "modules/novelneko/icon.png",
+      "baseURL": "https://novelneko.fr/",
+      "contentType": "text",
+      "language": "fr",
+      "contentRating": "suggestive",
+      "releaseTrack": "stable",
+      "capabilities": [
+        "discovery",
+        "search",
+        "details",
+        "chapters",
+        "text"
+      ]
+    }
+  ]
+}
